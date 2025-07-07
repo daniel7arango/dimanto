@@ -1,12 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
 
-/*
-	Dopetrope by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -71,8 +65,6 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
-
-/* Basic */
 
 	html {
 		box-sizing: border-box;
@@ -174,8 +166,6 @@ input, select, textarea {
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
 	}
-
-/* Container */
 
 	.container {
 		margin: 0 auto;
@@ -1438,8 +1428,6 @@ input, select, textarea {
 
 		}
 
-/* Form */
-
 	form label {
 		display: block;
 		color: #252122;
@@ -1566,8 +1554,6 @@ input, select, textarea {
 		margin: 1.25em 0 0 0;
 	}
 
-/* Box */
-
 	.box {
 		background: #ffffff;
 		border-bottom: solid 1px #ccc;
@@ -1640,7 +1626,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background: #48a527;
+			background: #1c7822;
 		}
 
 		input[type="button"].alt,
@@ -2083,7 +2069,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		margin: 2.5em 0 0 0;
+		margin: 0 0 0 0;
 	}
 
 		#nav > ul {
@@ -2101,8 +2087,9 @@ input, select, textarea {
 				}
 
 				#nav > ul > li > a {
-					border-radius: 5px;
-					color: #5d5d5d;
+					font-size: 20px;
+					border-radius: 8px;
+					color: #000000;
 					text-decoration: none;
 					padding: 0.6em 1.2em 0.6em 1.2em;
 					-moz-transition: background-color .25s ease-in-out;
@@ -2113,7 +2100,7 @@ input, select, textarea {
 				}
 
 				#nav > ul > li:hover > a, #nav > ul > li.active > a {
-					background: #f3f3f3;
+					background: #ffffff;
 				}
 
 				#nav > ul > li.current > a {
@@ -2173,7 +2160,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/pic01.jpg");
+		background: url("../../images/fondo2.png") ;
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
@@ -2184,21 +2171,21 @@ input, select, textarea {
 	}
 
 		#banner header {
-			background-color: rgba(34, 30, 31, 0.98);
+			background-color: rgba(210, 223, 62, 0.98);
 			display: inline-block;
 			padding: 2.5em 5em;
 			border-radius: 5px;
 		}
 
 			#banner header h2 {
-				color: #ffffff;
+				color: #000000;
 				font-weight: 700;
 				font-size: 2.5em;
 				margin: 0 0 0.65em 0;
 			}
 
 			#banner header p {
-				color: #2fd523;
+				color: #24911c;
 				padding: 0;
 				font-style: normal;
 				margin: 0;
