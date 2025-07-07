@@ -1914,7 +1914,7 @@ input, select, textarea {
 				height: 3em;
 				text-align: center;
 				border-radius: 5px;
-				background: #888;
+				background: #0a7adb;
 				-moz-transition: background-color .25s ease-in-out;
 				-webkit-transition: background-color .25s ease-in-out;
 				-ms-transition: background-color .25s ease-in-out;
@@ -1928,11 +1928,11 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-facebook {
-					background: #3c5a98;
+					background: #418a21;
 				}
 
 					ul.social li a.fa-facebook:hover {
-						background: #4c6aa8;
+						background: #0055ff;
 					}
 
 				ul.social li a.fa-twitter {
@@ -2290,7 +2290,7 @@ input, select, textarea {
 
 	#footer {
 		position: relative;
-		color: #858484;
+		color: rgb(255, 255, 255);
 		padding: 4em 0;
 	}
 
@@ -2307,7 +2307,7 @@ input, select, textarea {
 		}
 
 		#footer a {
-			color: #c5c4c4;
+			color: #ffffff;
 		}
 
 		#footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
@@ -2332,22 +2332,6 @@ input, select, textarea {
 			#footer header h2 {
 				font-size: 1.75em;
 			}
-
-/* Copyright */
-
-	#copyright {
-		text-align: center;
-		margin: 3em 0 2em 0;
-	}
-
-		#copyright ul.links {
-			display: inline-block;
-			background: #2C2929;
-			background: rgba(255, 255, 255, 0.05);
-			border-radius: 5px;
-			margin: 0;
-			padding: 0.85em 2.25em 0.85em 2.25em;
-		}
 
 /* XLarge */
 
@@ -2780,7 +2764,7 @@ input, select, textarea {
 
 				.box.post header > p {
 					margin-top: 0;
-					font-size: 1em;
+					font-size: 2em;
 				}
 
 		/* Divided */
