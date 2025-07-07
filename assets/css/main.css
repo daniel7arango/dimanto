@@ -1524,6 +1524,7 @@ input, select, textarea {
 
 	header {
 		margin: 0 0 1.5em 0;
+		z-index: 10;
 	}
 
 		header > p {
