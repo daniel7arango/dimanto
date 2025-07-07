@@ -2172,10 +2172,10 @@ input, select, textarea {
 	}
 
 		#banner header {
-			background-color: rgba(210, 223, 62, 0.98);
+			background-color: #d5dc32;
 			display: inline-block;
-			padding: 2.5em 5em;
-			border-radius: 5px;
+			padding: 1.5em 5em;
+			border-radius: 15px;
 		}
 
 			#banner header h2 {
@@ -2321,8 +2321,6 @@ input, select, textarea {
 				font-size: 1.75em;
 			}
 
-/* XLarge */
-
 	@media screen and (max-width: 1680px) {
 
 		/* Basic */
@@ -2333,17 +2331,11 @@ input, select, textarea {
 
 	}
 
-/* Large */
-
 	@media screen and (max-width: 1280px) {
-
-		/* Basic */
 
 			body, input, textarea, select {
 				font-size: 11pt;
 			}
-
-		/* Section/Article */
 
 			header.major {
 				margin: 0.75em 0 2.5em 0;
@@ -2422,21 +2414,15 @@ input, select, textarea {
 
 	}
 
-/* Medium */
-
 	#navPanel, #titleBar {
 		display: none;
 	}
 
 	@media screen and (max-width: 980px) {
 
-		/* Basic */
-
 			html, body {
 				overflow-x: hidden;
 			}
-
-		/* Box */
 
 			.box footer ul.actions li {
 				margin: 1em 0 0 0;
@@ -2451,19 +2437,13 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
-		/* Header */
-
 			#header {
 				padding: 3.5em 0 3em 0;
 			}
 
-		/* Nav */
-
 			#nav {
 				display: none;
 			}
-
-		/* Intro */
 
 			#intro {
 				padding: 3em 0 0 0;
